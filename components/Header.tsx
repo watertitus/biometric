@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Logo from './Logo';
 
 interface HeaderProps {
   officerName?: string;
@@ -24,8 +25,8 @@ const Header: React.FC<HeaderProps> = ({ officerName = "Officer Name" }) => {
           {/* Logo and Brand */}
           <div className="flex items-center">
             <div className="flex-shrink-0 flex items-center">
-              <div className="h-10 w-10 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold text-lg">
-                ESU
+              <div className="flex items-center bg-white py-5">
+                <Logo size="sm" showText={true} />
               </div>
               <div className="ml-3">
                 <h1 className="text-xl font-bold text-white">
