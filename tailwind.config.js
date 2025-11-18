@@ -9,10 +9,16 @@ module.exports = {
       colors: {
         primary: {
           50: '#eff6ff',
-          500: '#e61818ff',
-          600: '#e61818ff',
-          700: '#e61818ff',
+          500: '#3b82f6',
+          600: '#2563eb',
+          700: '#1d4ed8',
         },
+        // EKSU Brand Colors (approximate from logo)
+        eksu: {
+          red: '#981b1b',
+          gold: '#d97706',
+          green: '#059669',
+        }
       },
     },
   },

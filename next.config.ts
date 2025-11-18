@@ -3,7 +3,8 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
 images: {
     domains: ['eksu.edu.ng'],
-    formats: ['image/avif', 'image/webp'],
+     unoptimized: true,
+    // formats: ['image/avif', 'image/webp','image/png'],
   },
 };
 
